@@ -1,0 +1,196 @@
+@import url("http://fonts.cdnfonts.com/css/antihero");
+@import url("http://fonts.cdnfonts.com/css/guaruja-neue");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Guaruja Neue", sans-serif;
+}
+
+.header {
+  background-image: url("./assets/header.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+  background-blend-mode: darken;
+}
+
+.header h2 {
+  font-family: "Antihero", sans-serif;
+  font-size: 70px;
+  color: white;
+  text-shadow: 2px 2px 3px #181616;
+}
+
+.header p {
+  font-family: "Guaruja Neue", sans-serif;
+  color: white;
+  font-size: 30px;
+  padding-top: 20px;
+  text-shadow: 2px 2px 3px #181616;
+}
+.activityHeading {
+  font-family: "Antihero", sans-serif;
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-shadow: 3px 3px 3px #000000;
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgb(71, 188, 122);
+}
+.activity {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 10px;
+  width: auto;
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    rgba(56, 122, 159, 1) 0%,
+    rgba(13, 104, 210, 1) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
+
+  color: white;
+}
+.activity h2 {
+  font-family: "Guaruja Neue", sans-serif;
+  padding-top: 20px;
+  color: rgb(207, 216, 216);
+}
+
+.activity p {
+  font-family: "Guaruja Neue", sans-serif;
+  font-size: 20px;
+  width: 200px;
+  padding-top: 10px;
+}
+.activity1 {
+  padding: 0 20px;
+}
+
+.footer {
+  background-image: url(./assets/bg.gif);
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+  color: white;
+  background-position: center;
+  background-size: cover;
+}
+
+.footerDetails {
+  width: 400px;
+  padding: 30px;
+  font-size: 20px;
+  background-color: rgb(41, 38, 36);
+  margin-left: 30px;
+  height: fit-content;
+  border-radius: 40px;
+}
+.footerDetails h2 {
+  color: rgb(138, 76, 76);
+}
+
+@media (max-width: 1000px) {
+  .header {
+    background-image: url("./assets/header.jpg");
+    background-size: cover;
+    height: 520px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 10px 10px;
+    justify-content: end;
+  }
+  .header h2 {
+    font-family: "Antihero", sans-serif;
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px 3px #181616;
+  }
+
+  .header p {
+    font-family: "Guaruja Neue", sans-serif;
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    text-shadow: 2px 2px 3px #181616;
+    width: 300px;
+  }
+  .activityHeading {
+    font-family: "Antihero", sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 3px 3px 3px #000000;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(71, 188, 122);
+  }
+  .activity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: linear-gradient(
+      90deg,
+      rgba(56, 122, 159, 1) 0%,
+      rgba(13, 104, 210, 1) 50%,
+      rgba(0, 212, 255, 1) 100%
+    );
+
+    color: white;
+  }
+
+  .activity h2 {
+    font-family: "Guaruja Neue", sans-serif;
+    padding-top: 20px;
+    color: rgb(207, 216, 216);
+  }
+
+  .activity p {
+    font-family: "Guaruja Neue", sans-serif;
+    font-size: 20px;
+    width: 200px;
+    padding-bottom: 20px;
+  }
+
+  .footer {
+    background-image: url(./assets/bg.gif);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .footerDetails {
+    width: 300px;
+    margin: 0;
+    padding: 30px;
+    font-size: 20px;
+    background-color: rgb(41, 38, 36);
+
+    border-radius: 40px;
+  }
+  .footer img {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+  }
+  .footerDetails h2 {
+    color: rgb(138, 76, 76);
+  }
+}
